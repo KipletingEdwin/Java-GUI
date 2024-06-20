@@ -7,8 +7,10 @@ public class Main {
         //JFrame = a GUI window to add components to
 
         JFrame frame = new JFrame(); //creates a frame
-        frame.setTitle("JFrame title goes here");
-        frame.setVisible(true); //sets the x-dimension and y-dimension of frame
+        frame.setTitle("JFrame title goes here"); //sets title of the frame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of the application
+        frame.setResizable(false); //
+        frame.setSize(420,420); //sets the x-dimension and y-dimension of frame
         frame.setVisible(true);  //make frame visible
 
 
