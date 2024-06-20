@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -13,6 +14,9 @@ public class Main {
         frame.setSize(420,420); //sets the x-dimension and y-dimension of frame
         frame.setVisible(true);  //make frame visible
 
+        ImageIcon image = new ImageIcon("2022harrier.jpg"); //create an ImageIcon
+        frame.setIconImage(image.getImage()); //change icon of frame
+        frame.getContentPane().setBackground(new Color(123, 50, 250));
 
 
 
